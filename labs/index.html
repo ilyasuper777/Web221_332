@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="helper.css" rel="stylesheet" />
+    <title>Выбор графического планшета</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Marcellus+SC&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header align="center">
+      <div class="begin">
+        <ul>
+          <li>
+            <a href="#">О компании</a>
+          </li>
+          <li>|</li>
+          <li>
+            <a href="#">Новости</a>
+          </li>
+          <li>|</li>
+          <li><a href="#">Проекты</a></li>
+          <li>|</li>
+          <li><a href="#">Карьера</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <h1><center>Выбор графического планшета</center></h1>
+      <h1 class="name_of_form">Форма обратной связи</h1>
+      <div class="container">
+        <form
+          action="https://httpbin.org/post"
+          method="post"
+          enctype="multipart/form-data"
+        >
+          <div class="form-group">
+            <label class="form-label" for="name">ФИО</label>
+            <input id="name" type="text" name="name" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="email">почта</label>
+            <input id="email" type="email" name="email" />
+          </div>
+          <p class="how_did_you_know" class="form-label">
+            Как вы узнали о нас ?
+          </p>
+          <div class="form-group">
+            <input
+              type="radio"
+              name="source"
+              id="adversting"
+              value="adversting"
+            />
+            <label for="adversting">Реклама в Интернете</label>
+            <input type="radio" name="source" id="friends" value="friends" />
+            <label for="friends">Рассказали знакомые</label>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="category">Категория обращения</label>
+            <select name="category" id="category">
+              <option value="proposal">Предложение</option>
+              <option value="grievance">Жалоба</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="message">Текст сообщения</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Введите сообщение"
+            >
+Текст по умолчанию</textarea
+            >
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="attachment">Вложение</label>
+            <input type="file" name="attachment" id="attachment" />
+          </div>
+          <div class="form-group">
+            <input
+              type="checkbox"
+              name="agreement"
+              id="agreement"
+              value="yes"
+            />
+            <label for="agreement"
+              >даю согласие на обработку персональных данных</label
+            >
+            <input class="btn" type="submit" value="Отправитель" />
+          </div>
+        </form>
+      </div>
+      <h1 class="name_of_form">Форма аутентификации</h1>
+      <div class="for_image">
+        <br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <div id="fefds" class="container">
+          <form action="https://httpbin.org/post" method="post">
+            <div class="form-group">
+              <label class="form-label" for="login">Введите логин</label>
+              <input id="login" type="text" name="login" required />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="password">Введите пароль</label>
+              <input id="password" type="password" name="password" required />
+            </div>
+            <div class="form-group">
+              <input
+                type="checkbox"
+                name="remember_me"
+                id="remember_me"
+                value="yes"
+              />
+              <label for="remember_me">Запомнить меня</label>
+            </div>
+            <input class="btn" type="submit" value="Отправитель" />
+          </form>
+        </div>
+      </div>
+      <h2>
+        <center>Содержание</center>
+      </h2>
+      <nav>
+        <a href="#part1"
+          >Часть 1. Функциональных характеристики графического планшета</a
+        ><br />
+        <a href="#part2">Часть 2. История развития графического планшета</a
+        ><br />
+        <a href="#part3">Часть 3. Принцип работы графических планшетов</a><br />
+        <a href="#conclusion">Заключение</a>
+      </nav>
+      <section>
+        <h2 id="part1">
+          <center>Функциональных характеристики графического планшета</center>
+        </h2>
+        <div class="par">
+          <p align="justify">
+            В качестве офисного графического планшета имеет смысл выбрать
+            графический планшет (обеспечивающую в частности, комфортную
+            удаленную работу и цифровую подпись) среднего ценового диапазона, и
+            выбрать лучшую из них согласно методу анализа иерархий (метода Т.
+            Саати) у дилера, с которым ранее был заключен контракт на поставку
+            офисной техники
+          </p>
+        </div>
+        <center>
+          <table>
+            <tr>
+              <th>№</th>
+              <th>Характеристика</th>
+              <th>Значение</th>
+            </tr>
+            <tr>
+              <td><b>1</b></td>
+              <td>Формат</td>
+              <td>Не важно</td>
+            </tr>
+            <tr>
+              <td><b>2</b></td>
+              <td>Габариты (мм)</td>
+              <td>Не важно</td>
+            </tr>
+            <tr>
+              <td><b>3</b></td>
+              <td>Активная область (мм)</td>
+              <td>Не важно</td>
+            </tr>
+            <tr>
+              <td><b>4</b></td>
+              <td><b>Разрешение (Lpi)</b></td>
+              <td><b>Важно</b></td>
+            </tr>
+            <tr>
+              <td><b>5</b></td>
+              <td><b>Чувствительность пера</b></td>
+              <td><b>Важно</b></td>
+            </tr>
+            <tr>
+              <td><b>6</b></td>
+              <td><b>Точность пера (мм)</b></td>
+              <td><b>Важно</b></td>
+            </tr>
+            <tr>
+              <td><b>7</b></td>
+              <td>Батарейка в пере</td>
+              <td>Не важно</td>
+            </tr>
+            <tr>
+              <td><b>8</b></td>
+              <td>Кнопки на пере (шт.)</td>
+              <td>Не важно</td>
+            </tr>
+            <tr>
+              <td><b>9</b></td>
+              <td>Программируемые горячие клавиши (шт.)</td>
+              <td>Не важно</td>
+            </tr>
+            <tr>
+              <td><b>10</b></td>
+              <td><b>Скорость считывания пера (pps)</b></td>
+              <td><b>Важно</b></td>
+            </tr>
+            <tr>
+              <td><b>11</b></td>
+              <td>Вес планшета (г)</td>
+              <td>Не важно</td>
+            </tr>
+            <tr>
+              <td><b>12</b></td>
+              <td>Цвет</td>
+              <td>Не важно</td>
+            </tr>
+            <tr>
+              <td><b>13</b></td>
+              <td><b>Цена (руб)</b></td>
+              <td><b>Важно</b></td>
+            </tr>
+          </table>
+        </center>
+      </section>
+      <h2 id="part2">
+        <center>История развития графического планшета</center>
+      </h2>
+      <div class="par">
+        <p align="justify">
+          Первый прототип современного графического планшета появился ещё
+          задолго до компьютерной эры — он был запатентован в 1888 году
+          известным американским изобретателем и промышленником Элишей Греем
+          (Рис.1). Сегодня Грей наиболее известен тем, что создал первый телефон
+          до Александра Белла, но не успел вовремя запатентовать его. Планшет
+          Грея назывался "телеавтограф" (teleautograph) и предвосхитил ряд
+          технологий, включая факс и электронную почту.
+        </p>
+      </div>
+      <div class="par">
+        <p align="justify">
+          В точке отправления художник создавал изображение на специальной
+          электрической подставке; точки соприкосновения ручки и стола
+          преобразовывались в электрические импульсы и передавались на
+          принимающую станцию. Там сервомеханизмы с усиленным пером
+          воспроизводили рисунок. Прежде всего, система предназначалась для
+          подписания важных документов на расстоянии, с помощью телеграфа.
+          Телеграфы использовались в Соединенных Штатах для оформления
+          документов до 1960-х годов.
+        </p>
+      </div>
+      <center><img src="Grays_telegraph.jpg" alt="Grays_telegraph" /></center>
+      <section>
+        <h2 id="part3">
+          <center>Принцип работы графических планшетов</center>
+        </h2>
+        <div class="par">
+          <p>
+            Современные планшеты можно разделить на два типа по принципу
+            действия — пассивные и активные.
+          </p>
+        </div>
+        <div class="par">
+          <p align="justify">
+            В первом случае планшет посылает сигналы перу. Сигналы принимаются и
+            возвращаются обратно для определения положения пера. Этот метод
+            позволяет избежать использования батареек в ручке. Он основан на
+            принципе электромагнитного резонанса. Ручка представляет собой
+            довольно сложное устройство с резонансным контуром (действует как
+            источник энергии для передачи ответного сигнала) и чипом, кодирующим
+            информацию с датчиков давления и кнопок пера в ответный сигнал.
+            Сетка планшета во время работы меняет режим передачи и режим приема
+            сигнала примерно каждые 20 микросекунд. В перьях активных планшетов
+            для создания сигнала используется батарея. В этом случае ручка
+            становится тяжелее и нарушается ее балансировка, но планшету не
+            приходится переключаться между режимами приема и передачи сигнала.
+            Однако необходимость переключения режимов не должна беспокоить
+            пользователя. Изменение каждые 20 микросекунд происходит настолько
+            быстро, что никак не влияет на работу устройства. Выполнив пару
+            арифметических операций, легко выяснить, что планшет меняет режим 50
+            000 раз в секунду. Получается, что для того, чтобы функция
+            пассивного пера мешала работе, необходимо изменять состояние системы
+            планшет-перо 50 000 раз в секунду. Запас стабильности довольно
+            солидный, особенно если вспомнить, что мы меняем состояние такой
+            системы непрерывно и довольно плавно.
+          </p>
+        </div>
+        <center><img src="parts_of_tablet.png" alt="parts_of_tablet" /></center>
+      </section>
+      <div class="conclusion1">
+        <section>
+          <h2 id="conclusion"><center>Заключение</center></h2>
+          <div class="par">
+            <p align="justify">
+              Благодаря методу анализа иерархий, мы выяснили, что для нас самым
+              предпочтительным вариантом графического планшета для закупки в
+              офис является графический планшет модели Wаcom Intuos
+              CTL-4100WLЕ-N А6.
+            </p>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer align="center">
+      <div>
+        <h2>
+          <ul>
+            <div class="par">
+              <li>Copyright © 2023 Aver_security. All rights reserved.</li>
+            </div>
+          </ul>
+        </h2>
+      </div>
+    </footer>
+  </body>
+</html>
