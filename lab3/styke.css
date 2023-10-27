@@ -1,0 +1,146 @@
+.holy-grail {
+  min-height: 100vh;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-size: 30px;
+  background-color: aquamarine;
+  padding-bottom: 0px;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-size: 30px;
+  background-color: blueviolet;
+  padding-bottom: 0px;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Annie Use Your Telescope", cursive;
+}
+header > a {
+  padding: 4px;
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+.holy-grail,
+.holy-grail-body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+.holy-grail-content {
+  flex: 1 1 auto;
+}
+
+.holy-grail-sidebar-1 {
+  order: -1;
+}
+
+@media (min-width: 768px) {
+  .holy-grail-body {
+    flex-direction: row;
+  }
+
+  .hg-sidebar {
+    flex: 0 0 260px;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Marcellus+SC&family=Poppins:ital,wght@1,300;1,500&display=swap");
+.holy-grail-content {
+  text-align: center;
+}
+
+.text_of_body_1 {
+  text-align: justify;
+  width: 100%;
+}
+.turtle img {
+  width: 90%;
+}
+.turtle {
+  margin: 1%;
+  border: solid;
+  width: 30%;
+}
+
+.turtles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+h3 {
+  font-size: 28px;
+  overflow-wrap: anywhere;
+}
+
+p {
+  overflow-wrap: anywhere;
+  text-align: justify;
+}
+.holy-grail-sidebar-1 p {
+  text-align: center;
+}
+.holy-grail-sidebar-2 p {
+  text-align: center;
+}
+.ads {
+  display: flex;
+  justify-content: space-between;
+  margin: 3%;
+  border: thick double #32a1ce;
+}
+
+.ads > a {
+  text-decoration: none;
+  color: black;
+}
+
+@media print {
+  html,
+  body {
+    height: 297mm;
+    width: 210mm;
+    font-size: 14px;
+  }
+  *,
+  *:before,
+  *:after {
+    color: #000;
+    box-shadow: none;
+    text-shadow: none;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  header,
+  footer,
+  .holy-grail-sidebar-1,
+  .holy-grail-sidebar-2 {
+    display: none;
+  }
+}
+@page {
+  margin: 20mm 10mm 20mm 20mm;
+}
